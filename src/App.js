@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Testimony from './components/Testimony';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='container'>
+        <h1>Creando Card con React</h1>
+        <Testimony
+          name='Shawn Wang'
+          imageName='shawn'
+          state='Singapur'
+          position='Ingeniero de Software'
+          work='Amazon'
+          testi='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'
+          />
+        <Testimony
+          name='Shawn Wang'
+          imageName='shawn'
+          state='Singapur'
+          position='Ingeniero de Software'
+          work='Amazon'
+          testi='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'
+          />
+      </div>
     </div>
   );
 }
