@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JoseCaicedoDev/cardReact.git/static/css/main.6a906431.css",
-    "main.js": "/JoseCaicedoDev/cardReact.git/static/js/main.4c7b3f93.js",
-    "static/media/testimonio-emma.png": "/JoseCaicedoDev/cardReact.git/static/media/testimonio-emma.add10415a5668325d2f2.png",
-    "static/media/testimonio-sarah.png": "/JoseCaicedoDev/cardReact.git/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
-    "static/media/testimonio-shawn.png": "/JoseCaicedoDev/cardReact.git/static/media/testimonio-shawn.0d373888087fb18fc145.png",
-    "index.html": "/JoseCaicedoDev/cardReact.git/index.html",
-    "main.6a906431.css.map": "/JoseCaicedoDev/cardReact.git/static/css/main.6a906431.css.map",
-    "main.4c7b3f93.js.map": "/JoseCaicedoDev/cardReact.git/static/js/main.4c7b3f93.js.map"
+    "main.css": "/JoseCaicedoDev/cardReact/static/css/main.6a906431.css",
+    "main.js": "/JoseCaicedoDev/cardReact/static/js/main.1cda6d63.js",
+    "static/media/testimonio-emma.png": "/JoseCaicedoDev/cardReact/static/media/testimonio-emma.add10415a5668325d2f2.png",
+    "static/media/testimonio-sarah.png": "/JoseCaicedoDev/cardReact/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
+    "static/media/testimonio-shawn.png": "/JoseCaicedoDev/cardReact/static/media/testimonio-shawn.0d373888087fb18fc145.png",
+    "index.html": "/JoseCaicedoDev/cardReact/index.html",
+    "main.6a906431.css.map": "/JoseCaicedoDev/cardReact/static/css/main.6a906431.css.map",
+    "main.1cda6d63.js.map": "/JoseCaicedoDev/cardReact/static/js/main.1cda6d63.js.map"
   },
   "entrypoints": [
     "static/css/main.6a906431.css",
-    "static/js/main.4c7b3f93.js"
+    "static/js/main.1cda6d63.js"
   ]
 }
