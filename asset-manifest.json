@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/cardReact/static/css/main.6a906431.css",
-    "main.js": "/cardReact/static/js/main.62c7cde3.js",
-    "static/media/testimonio-emma.png": "/cardReact/static/media/testimonio-emma.add10415a5668325d2f2.png",
-    "static/media/testimonio-sarah.png": "/cardReact/static/media/testimonio-sarah.2c504d1ebaf1961e4a40.png",
-    "static/media/testimonio-shawn.png": "/cardReact/static/media/testimonio-shawn.0d373888087fb18fc145.png",
+    "main.css": "/cardReact/static/css/main.ba409828.css",
+    "main.js": "/cardReact/static/js/main.eefb6279.js",
     "index.html": "/cardReact/index.html",
-    "main.6a906431.css.map": "/cardReact/static/css/main.6a906431.css.map",
-    "main.62c7cde3.js.map": "/cardReact/static/js/main.62c7cde3.js.map"
+    "main.ba409828.css.map": "/cardReact/static/css/main.ba409828.css.map",
+    "main.eefb6279.js.map": "/cardReact/static/js/main.eefb6279.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a906431.css",
-    "static/js/main.62c7cde3.js"
+    "static/css/main.ba409828.css",
+    "static/js/main.eefb6279.js"
   ]
 }
