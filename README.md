@@ -12,7 +12,4 @@
 - Diseño Responsivo
 - Tailwind
 - React
-<<<<<<< HEAD
-=======
 ----------
->>>>>>> 9cbf0df0bf177be769550a3c6629678316c0cb67
