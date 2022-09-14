@@ -1,6 +1,7 @@
 import Testimony from './components/Testimony';
 import { TestimonyList } from './components/testimonyList';
 import { useEffect, useState } from 'react';
+import carga from './images/cargando.gif'
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
             position={testimony.designation}
             testi={testimony.message}
             />
-            ) : <p className='my-20 text-4xl text-gray-700 font-semibold'>Cargando...</p>
+            ) : <img src={carga} alt="" />
         }
       </div>
     </>
