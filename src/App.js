@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className='container mx-auto'>
-        <h1 className='text-gray-700 font-extrabold text-xl sm:text-5xl my-7'>Testimonials cards with react</h1>
+        <h1 className='text-gray-700 font-extrabold text-2xl sm:text-5xl my-7'>Testimonials cards with react</h1>
         {
           testimonies != null ?
           testimonies.map( testimony =>
