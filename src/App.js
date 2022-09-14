@@ -1,27 +1,32 @@
 import './App.css';
 import Testimony from './components/Testimony';
+import { TestimonyList } from './components/testimonyList';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [testimonies, setTestimonies] = useState(null)
+  useEffect(()=>{
+    TestimonyList(setTestimonies)
+  }, [])
+
   return (
     <div className="App">
-      <div className='container'>
-        <h1>Creando Card con React</h1>
-        <Testimony
-          name='Shawn Wang'
-          imageName='shawn'
-          state='Singapur'
-          position='Ingeniero de Software'
-          work='Amazon'
-          testi='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'
-          />
-        <Testimony
-          name='Shawn Wang'
-          imageName='shawn'
-          state='Singapur'
-          position='Ingeniero de Software'
-          work='Amazon'
-          testi='Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida.'
-          />
+      <div className='container mx-auto'>
+        <h1 className='text-gray-700 font-extrabold text-xl sm:text-5xl my-7'>Testimonials cards with react</h1>
+        {
+          testimonies != null ?
+          testimonies.map( testimony =>
+          <Testimony
+            key={testimony.id}
+            name={testimony.name}
+            imageName={testimony.avatar}
+            state={testimony.location}
+            position={testimony.designation}
+            testi={testimony.message}
+            />
+            ) : 'no hay'
+        }
       </div>
     </div>
   );
