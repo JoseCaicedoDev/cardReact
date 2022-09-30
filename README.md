@@ -13,4 +13,3 @@
 - Tailwind
 - React
 ----------
-[rmarkdown_reference.pdf](https://github.com/JoseCaicedoDev/cardReact/files/9688200/rmarkdown_reference.pdf)
